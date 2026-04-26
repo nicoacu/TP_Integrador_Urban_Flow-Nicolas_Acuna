@@ -42,3 +42,6 @@
 
 ## Dia 6
 - Análisis de impacto de registros inconsistentes (1932-01-01 y 00:00)
+
+## Dia 7
+- Redacción de conclusiones finales sobre la calidad del dataset
