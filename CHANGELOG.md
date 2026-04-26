@@ -39,3 +39,6 @@
   - Excesos de velocidad agrupados por la hora 00:00
   - Excesos de velocidad agrupados por la fecha 1932-01-01
 - Exportación de graficos en archivos .jpg en data/interim/plots/
+
+## Dia 6
+- Análisis de impacto de registros inconsistentes (1932-01-01 y 00:00)
