@@ -30,3 +30,12 @@
   - Método `exceso_real_promedio()`: retorna el exceso de velocidad real promedio como flotante
   - Método `multas_por_ubicacion()`: retorna cantidad de multas agrupadas y ordenadas alfabéticamente por ubicación
 - Instanciación del objeto `FineAnalyzer` con el dataframe trabajado e invocación de cada método
+
+## Dia 5
+- Utilización de libreria matplotlib para la generación de los siguientes graficos:
+  - Ranking 10 patentes más reincidentes ordenadas de mayor a menor
+  - Porcentaje de infracciones por hora en un gráfico de torta
+  - Cantidad de infracciones por mes ordenado de mayor a menor
+  - Excesos de velocidad agrupados por la hora 00:00
+  - Excesos de velocidad agrupados por la fecha 1932-01-01
+- Exportación de graficos en archivos .jpg en data/interim/plots/
