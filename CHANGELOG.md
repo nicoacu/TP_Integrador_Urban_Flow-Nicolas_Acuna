@@ -21,3 +21,12 @@
 - Creación de columna exceso_velocidad: diferencia entre velocidad_registrada y velocidad_maxima con tolerancia del 5%
 - Eliminación de filas sin infracción real según exceso_velocidad
 - Exportación del dataset limpio a data/interim/speeding_fines.csv
+
+## Dia 4
+- Definición de clase FineAnalyzer con encapsulamiento del dataframe limpio, y creación de los siguientes metodos
+  - Método `ranking_patentes()`: retorna top 5 patentes más multadas ordenadas de mayor a menor con índice desde 1
+  - Método `ranking_horarios()`: retorna top 5 horarios con más multas ordenados de mayor a menor con índice desde 1
+  - Método `exceso_promedio()`: retorna el exceso de velocidad promedio con tolerancia del 5% como flotante
+  - Método `exceso_real_promedio()`: retorna el exceso de velocidad real promedio como flotante
+  - Método `multas_por_ubicacion()`: retorna cantidad de multas agrupadas y ordenadas alfabéticamente por ubicación
+- Instanciación del objeto `FineAnalyzer` con el dataframe trabajado e invocación de cada método
