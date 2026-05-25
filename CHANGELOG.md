@@ -55,3 +55,11 @@
 - Clasificación de imágenes en grupos plates (89) y completes (19), con 2 archivos .qoi omitidos por incompatibilidad de OpenCV
 - Generación de data/interim/group_images.json con metadata (filename, width, height, area, path, patent)
 - Función reutilizable mostrar_grilla para visualizar 8 imágenes aleatorias en grilla 4x2
+
+## Dia 10
+- Pipeline de procesamiento de imágenes con OpenCV
+  - 03.1 Conversión a escala de grises
+  - 03.2 Suavizado con Gaussian Blur (kernel 5x5)
+  - 03.3 Detección de bordes con Canny (umbrales 50/150)
+- Función reutilizable procesar_grupo para encadenar transformaciones y persistir resultados
+- Variante mostrar_grilla_gris para visualizar imágenes de un solo canal
