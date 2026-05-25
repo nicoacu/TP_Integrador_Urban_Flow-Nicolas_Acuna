@@ -69,3 +69,9 @@
 - Función ratio_match con difflib.SequenceMatcher para matching tolerante al ruido del OCR
 - Matching de patentes con threshold del 80% contra dataset del Sprint 1
 - Generación de data/processed/speeding_fines_image.csv con columnas imagen, patente_imagen, ratio
+
+## Dia 12
+- Cálculo de métricas finales del dataset
+  - Multas sin imágenes (982) y con imágenes (691)
+  - Imágenes sin match con el dataset (81 de 108)
+  - Multas pendientes de pago (418) y pendientes con imágenes relacionadas (161)
