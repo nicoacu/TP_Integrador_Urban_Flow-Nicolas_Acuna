@@ -75,3 +75,7 @@
   - Multas sin imágenes (982) y con imágenes (691)
   - Imágenes sin match con el dataset (81 de 108)
   - Multas pendientes de pago (418) y pendientes con imágenes relacionadas (161)
+
+## Dia 13
+- Redacción de análisis y conclusiones del Sprint 2 en data/Readme.md
+- Documentación de hallazgos, decisiones técnicas (OCR sobre gris, SequenceMatcher), limitaciones y librerías externas utilizadas

@@ -36,3 +36,37 @@ Esta sobrerrepresentación expone una limitación importante del proceso: la nor
 
 En definitiva, la calidad del análisis no depende únicamente de la limpieza de los datos, sino de la capacidad de identificar las consecuencias de cada decisión de normalización y reflejarlas en la interpretación de los resultados.
 
+
+# Hallazgos sobre los datos
+
+El sistema de radares tiene cobertura visual parcial: del total de 1673
+multas válidas, solo el 41% (691) tiene evidencia visual; el 59% restante
+(982) son infracciones registradas sin foto de respaldo. Esto plantea un
+problema operativo: si el infractor contesta la multa, la única prueba
+disponible es el registro administrativo del radar.
+
+El caso es más crítico en las multas pendientes de pago (IMPAGA): de las
+418 existentes, solo 161 (39%) cuentan con foto. Las 257 restantes son las
+más vulnerables a una apelación exitosa.
+
+Del lado del dataset de imágenes, de 108 fotos procesadas solo 27 (25%)
+lograron asociarse a una multa real. El 75% restante puede deberse a:
+vehículos fotografiados sin infracción válida, errores del OCR sobre esa
+imagen, o patentes de otra jurisdicción que no figuran en este CSV.
+
+# Decisiones técnicas y trade-offs
+
+Dos decisiones de implementación impactaron significativamente en los resultados finales:
+
+1. **OCR sobre escala de grises (no color)**: se comparó el rendimiento de `extraer_patente` sobre las imágenes originales en color contra las versiones en escala de grises del Ej. 03, y la versión en gris obtuvo notablemente más matches. easyocr parece tolerar mejor el contraste reducido del gris, especialmente en patentes pequeñas o de baja calidad.
+    
+2. **`SequenceMatcher` en vez de comparación posición a posición**: easyocr lee TODO el texto visible en la imagen (eslóganes, ciudad de origen, modelo del auto), no solo la patente. El resultado es que muchas extracciones devuelven la patente embebida dentro de un string mucho más largo, por ejemplo:
+    
+    ```
+    WASHINGTONEMOT IONevergreen stat
+    Jay"chslov a"[HAMSTUR
+    @ 0OEnoSadASA
+    BELIZE CAC26727BELIZE CITY
+    ```
+    
+Una comparación literal carácter a carácter de izquierda a derecha falla en estos casos: aunque la patente real esté presente en la cadena, queda desplazada respecto al inicio y el ratio se reduce a ≈ 0. Por eso se decidió usar `difflib.SequenceMatcher` (stdlib de Python), que busca la subsecuencia común más larga entre dos cadenas. Esto permite encontrar la patente "escondida" dentro del texto ruidoso y reportar un ratio representativo. Esta sola decisión casi triplicó la cantidad de matches respecto al algoritmo posicional.
