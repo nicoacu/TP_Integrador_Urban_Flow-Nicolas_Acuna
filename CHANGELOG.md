@@ -63,3 +63,9 @@
   - 03.3 Detección de bordes con Canny (umbrales 50/150)
 - Función reutilizable procesar_grupo para encadenar transformaciones y persistir resultados
 - Variante mostrar_grilla_gris para visualizar imágenes de un solo canal
+
+## Dia 11
+- Extracción de patentes con OCR (easyocr) sobre versiones en escala de grises
+- Función ratio_match con difflib.SequenceMatcher para matching tolerante al ruido del OCR
+- Matching de patentes con threshold del 80% contra dataset del Sprint 1
+- Generación de data/processed/speeding_fines_image.csv con columnas imagen, patente_imagen, ratio
