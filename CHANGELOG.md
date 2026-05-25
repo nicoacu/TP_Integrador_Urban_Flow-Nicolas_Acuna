@@ -49,3 +49,9 @@
 ## Dia 8
 - Inicialización del Sprint 2 sobre la rama Sprint_2 (derivada de Sprint_1)
 - Descarga y descompresión del dataset de imágenes en data/raw/imgs/urban_flow_plates/
+
+## Dia 9
+- Listado del dataset de imágenes con nombre y tamaño en kb
+- Clasificación de imágenes en grupos plates (89) y completes (19), con 2 archivos .qoi omitidos por incompatibilidad de OpenCV
+- Generación de data/interim/group_images.json con metadata (filename, width, height, area, path, patent)
+- Función reutilizable mostrar_grilla para visualizar 8 imágenes aleatorias en grilla 4x2

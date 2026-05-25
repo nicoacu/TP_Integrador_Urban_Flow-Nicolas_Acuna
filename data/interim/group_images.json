@@ -1,0 +1,870 @@
+{
+  "plates": [
+    {
+      "filename": "017527da8bfeb97d_patente.jpg",
+      "width": 245,
+      "height": 60,
+      "area": 14700,
+      "path": "./data/raw/imgs/urban_flow_plates/017527da8bfeb97d_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "02a6ef3d9bd68e91_patente.jpg",
+      "width": 66,
+      "height": 44,
+      "area": 2904,
+      "path": "./data/raw/imgs/urban_flow_plates/02a6ef3d9bd68e91_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "044417ca6134604f_patente.jpg",
+      "width": 118,
+      "height": 54,
+      "area": 6372,
+      "path": "./data/raw/imgs/urban_flow_plates/044417ca6134604f_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "081f5a6bc61b9c48_patente.jpg",
+      "width": 141,
+      "height": 83,
+      "area": 11703,
+      "path": "./data/raw/imgs/urban_flow_plates/081f5a6bc61b9c48_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "08481c03daf6f35d_patente_2.jpg",
+      "width": 404,
+      "height": 93,
+      "area": 37572,
+      "path": "./data/raw/imgs/urban_flow_plates/08481c03daf6f35d_patente_2.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "09453a7c716a9ef3_patente.jpg",
+      "width": 160,
+      "height": 51,
+      "area": 8160,
+      "path": "./data/raw/imgs/urban_flow_plates/09453a7c716a9ef3_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "0e50ea14c4fc1353_patente.jpg",
+      "width": 175,
+      "height": 52,
+      "area": 9100,
+      "path": "./data/raw/imgs/urban_flow_plates/0e50ea14c4fc1353_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "0ee91c4938b6e7ee_patente.jpg",
+      "width": 143,
+      "height": 75,
+      "area": 10725,
+      "path": "./data/raw/imgs/urban_flow_plates/0ee91c4938b6e7ee_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "0fbd1b85fc01d2ae_patente.jpg",
+      "width": 80,
+      "height": 46,
+      "area": 3680,
+      "path": "./data/raw/imgs/urban_flow_plates/0fbd1b85fc01d2ae_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "16789af24af158d8_patente.jp2",
+      "width": 366,
+      "height": 95,
+      "area": 34770,
+      "path": "./data/raw/imgs/urban_flow_plates/16789af24af158d8_patente.jp2",
+      "patent": ""
+    },
+    {
+      "filename": "182268e1f8c6525f_patente.jpg",
+      "width": 164,
+      "height": 69,
+      "area": 11316,
+      "path": "./data/raw/imgs/urban_flow_plates/182268e1f8c6525f_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "19eba8ac64eed194_patente_1.jpg",
+      "width": 447,
+      "height": 144,
+      "area": 64368,
+      "path": "./data/raw/imgs/urban_flow_plates/19eba8ac64eed194_patente_1.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "1ca1155083156d72_patente.jpg",
+      "width": 293,
+      "height": 117,
+      "area": 34281,
+      "path": "./data/raw/imgs/urban_flow_plates/1ca1155083156d72_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "246a0e4264a39433_patente.jpg",
+      "width": 98,
+      "height": 52,
+      "area": 5096,
+      "path": "./data/raw/imgs/urban_flow_plates/246a0e4264a39433_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "288a95c01e43cd14_patente.jpg",
+      "width": 176,
+      "height": 47,
+      "area": 8272,
+      "path": "./data/raw/imgs/urban_flow_plates/288a95c01e43cd14_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "288a95c01e43cd14_patente_1.jpg",
+      "width": 187,
+      "height": 55,
+      "area": 10285,
+      "path": "./data/raw/imgs/urban_flow_plates/288a95c01e43cd14_patente_1.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "28bd6c6b1050e055_patente.jpg",
+      "width": 277,
+      "height": 81,
+      "area": 22437,
+      "path": "./data/raw/imgs/urban_flow_plates/28bd6c6b1050e055_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "28e26a4eb646c67a_patente.jpg",
+      "width": 202,
+      "height": 61,
+      "area": 12322,
+      "path": "./data/raw/imgs/urban_flow_plates/28e26a4eb646c67a_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "299f0363ae21d1c3_patente.jpg",
+      "width": 134,
+      "height": 74,
+      "area": 9916,
+      "path": "./data/raw/imgs/urban_flow_plates/299f0363ae21d1c3_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "29f7991e696e6e3f_patente.jpg",
+      "width": 301,
+      "height": 161,
+      "area": 48461,
+      "path": "./data/raw/imgs/urban_flow_plates/29f7991e696e6e3f_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "2a3e44107826e876_patente.jpg",
+      "width": 117,
+      "height": 58,
+      "area": 6786,
+      "path": "./data/raw/imgs/urban_flow_plates/2a3e44107826e876_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "2c09fab0221652c5_patente.jpg",
+      "width": 333,
+      "height": 101,
+      "area": 33633,
+      "path": "./data/raw/imgs/urban_flow_plates/2c09fab0221652c5_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "321ffb38656f7311_patente.jpg",
+      "width": 98,
+      "height": 53,
+      "area": 5194,
+      "path": "./data/raw/imgs/urban_flow_plates/321ffb38656f7311_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "35875c388efcddf0_patente.jpg",
+      "width": 275,
+      "height": 151,
+      "area": 41525,
+      "path": "./data/raw/imgs/urban_flow_plates/35875c388efcddf0_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "39c193bcc0c00f9e_patente.jpg",
+      "width": 239,
+      "height": 136,
+      "area": 32504,
+      "path": "./data/raw/imgs/urban_flow_plates/39c193bcc0c00f9e_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "3ed000628c6a0587_patente.jpg",
+      "width": 234,
+      "height": 86,
+      "area": 20124,
+      "path": "./data/raw/imgs/urban_flow_plates/3ed000628c6a0587_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "3feecc5809a29627_patente.jpg",
+      "width": 184,
+      "height": 55,
+      "area": 10120,
+      "path": "./data/raw/imgs/urban_flow_plates/3feecc5809a29627_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "4cb48c8bf41b70a4_patente.jpg",
+      "width": 240,
+      "height": 103,
+      "area": 24720,
+      "path": "./data/raw/imgs/urban_flow_plates/4cb48c8bf41b70a4_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "4e2cb95b9c509b10_patente.jpg",
+      "width": 534,
+      "height": 141,
+      "area": 75294,
+      "path": "./data/raw/imgs/urban_flow_plates/4e2cb95b9c509b10_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "4ee3f0e9a2fb20a9_patente.jpg",
+      "width": 181,
+      "height": 89,
+      "area": 16109,
+      "path": "./data/raw/imgs/urban_flow_plates/4ee3f0e9a2fb20a9_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "53386dae3cf13cc3_patente_2.jpg",
+      "width": 335,
+      "height": 100,
+      "area": 33500,
+      "path": "./data/raw/imgs/urban_flow_plates/53386dae3cf13cc3_patente_2.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "53ad98b12752ad16_patente.jpg",
+      "width": 404,
+      "height": 139,
+      "area": 56156,
+      "path": "./data/raw/imgs/urban_flow_plates/53ad98b12752ad16_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "5581a1b7d2f0f2b4_patente.jpg",
+      "width": 152,
+      "height": 81,
+      "area": 12312,
+      "path": "./data/raw/imgs/urban_flow_plates/5581a1b7d2f0f2b4_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "5a122adbb1a776b7_patente.jpg",
+      "width": 240,
+      "height": 60,
+      "area": 14400,
+      "path": "./data/raw/imgs/urban_flow_plates/5a122adbb1a776b7_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "5ff91ccfc6f15d04_patente.jpg",
+      "width": 243,
+      "height": 63,
+      "area": 15309,
+      "path": "./data/raw/imgs/urban_flow_plates/5ff91ccfc6f15d04_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "628a23a43f19c4db_patente.jpg",
+      "width": 127,
+      "height": 81,
+      "area": 10287,
+      "path": "./data/raw/imgs/urban_flow_plates/628a23a43f19c4db_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "62bb93bbd270dd9a_patente.jpg",
+      "width": 78,
+      "height": 35,
+      "area": 2730,
+      "path": "./data/raw/imgs/urban_flow_plates/62bb93bbd270dd9a_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "643c3cc1a4e85db2_patente.jpg",
+      "width": 156,
+      "height": 83,
+      "area": 12948,
+      "path": "./data/raw/imgs/urban_flow_plates/643c3cc1a4e85db2_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "647ff22cf6950211_patente.jpg",
+      "width": 157,
+      "height": 87,
+      "area": 13659,
+      "path": "./data/raw/imgs/urban_flow_plates/647ff22cf6950211_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "64de505bd2bac82b_patente.jpg",
+      "width": 190,
+      "height": 64,
+      "area": 12160,
+      "path": "./data/raw/imgs/urban_flow_plates/64de505bd2bac82b_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "65e080f9ac466664_patente.jpg",
+      "width": 84,
+      "height": 56,
+      "area": 4704,
+      "path": "./data/raw/imgs/urban_flow_plates/65e080f9ac466664_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "665cac5fd1cc2186_patente.jpg",
+      "width": 116,
+      "height": 75,
+      "area": 8700,
+      "path": "./data/raw/imgs/urban_flow_plates/665cac5fd1cc2186_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "6a0ef049e5ec4b16_patente.jpg",
+      "width": 248,
+      "height": 123,
+      "area": 30504,
+      "path": "./data/raw/imgs/urban_flow_plates/6a0ef049e5ec4b16_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "6c144e47161867c2_patente.jpg",
+      "width": 116,
+      "height": 39,
+      "area": 4524,
+      "path": "./data/raw/imgs/urban_flow_plates/6c144e47161867c2_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "6e819dc674a74078_patente.jpg",
+      "width": 253,
+      "height": 89,
+      "area": 22517,
+      "path": "./data/raw/imgs/urban_flow_plates/6e819dc674a74078_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "7275e72e1996267f_patente.jpg",
+      "width": 304,
+      "height": 84,
+      "area": 25536,
+      "path": "./data/raw/imgs/urban_flow_plates/7275e72e1996267f_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "747b0f12f54703ee_patente.jpg",
+      "width": 323,
+      "height": 63,
+      "area": 20349,
+      "path": "./data/raw/imgs/urban_flow_plates/747b0f12f54703ee_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "7a1f9520c7ecd5b1_patente.jpg",
+      "width": 138,
+      "height": 42,
+      "area": 5796,
+      "path": "./data/raw/imgs/urban_flow_plates/7a1f9520c7ecd5b1_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "7bcf6b4ec09f1ea7_patente.jpg",
+      "width": 271,
+      "height": 110,
+      "area": 29810,
+      "path": "./data/raw/imgs/urban_flow_plates/7bcf6b4ec09f1ea7_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "7cbc7ee444622a66_patente.jpg",
+      "width": 246,
+      "height": 79,
+      "area": 19434,
+      "path": "./data/raw/imgs/urban_flow_plates/7cbc7ee444622a66_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "7f56adf4b9306ac9_patente.jpg",
+      "width": 175,
+      "height": 50,
+      "area": 8750,
+      "path": "./data/raw/imgs/urban_flow_plates/7f56adf4b9306ac9_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "7f9740e95a74f2b9_patente.jpg",
+      "width": 443,
+      "height": 91,
+      "area": 40313,
+      "path": "./data/raw/imgs/urban_flow_plates/7f9740e95a74f2b9_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "80e02a518ffe4cb2_patente.jpg",
+      "width": 282,
+      "height": 67,
+      "area": 18894,
+      "path": "./data/raw/imgs/urban_flow_plates/80e02a518ffe4cb2_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "86c92b0402fec141_patente.jpg",
+      "width": 233,
+      "height": 67,
+      "area": 15611,
+      "path": "./data/raw/imgs/urban_flow_plates/86c92b0402fec141_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "9034927e7438bdd6_patente.jpg",
+      "width": 156,
+      "height": 95,
+      "area": 14820,
+      "path": "./data/raw/imgs/urban_flow_plates/9034927e7438bdd6_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "90596bf3313e72e3_patente.jpg",
+      "width": 101,
+      "height": 42,
+      "area": 4242,
+      "path": "./data/raw/imgs/urban_flow_plates/90596bf3313e72e3_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "9286a99f243b359a_patente.jpg",
+      "width": 116,
+      "height": 70,
+      "area": 8120,
+      "path": "./data/raw/imgs/urban_flow_plates/9286a99f243b359a_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "9995dfc6e0eae5a1_patente.jpg",
+      "width": 145,
+      "height": 41,
+      "area": 5945,
+      "path": "./data/raw/imgs/urban_flow_plates/9995dfc6e0eae5a1_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "9a4fe6361597f264_patente.jpg",
+      "width": 263,
+      "height": 65,
+      "area": 17095,
+      "path": "./data/raw/imgs/urban_flow_plates/9a4fe6361597f264_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "9a795bbf4e94d630_patente.jpg",
+      "width": 188,
+      "height": 56,
+      "area": 10528,
+      "path": "./data/raw/imgs/urban_flow_plates/9a795bbf4e94d630_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "a3ad91fabd188be3_patente.jpg",
+      "width": 142,
+      "height": 64,
+      "area": 9088,
+      "path": "./data/raw/imgs/urban_flow_plates/a3ad91fabd188be3_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "a56e82026bb71ad5_patente.jpg",
+      "width": 206,
+      "height": 106,
+      "area": 21836,
+      "path": "./data/raw/imgs/urban_flow_plates/a56e82026bb71ad5_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "a6e3b0b73220cd32_patente.jpg",
+      "width": 162,
+      "height": 55,
+      "area": 8910,
+      "path": "./data/raw/imgs/urban_flow_plates/a6e3b0b73220cd32_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "a72a8cda1bb31e34_patente.jp2",
+      "width": 152,
+      "height": 93,
+      "area": 14136,
+      "path": "./data/raw/imgs/urban_flow_plates/a72a8cda1bb31e34_patente.jp2",
+      "patent": ""
+    },
+    {
+      "filename": "a929dc75c20da7d8_patente.jpg",
+      "width": 257,
+      "height": 134,
+      "area": 34438,
+      "path": "./data/raw/imgs/urban_flow_plates/a929dc75c20da7d8_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "ae6724423f0d111a_patente.jpg",
+      "width": 198,
+      "height": 68,
+      "area": 13464,
+      "path": "./data/raw/imgs/urban_flow_plates/ae6724423f0d111a_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "b25d7d2cb7abf86b_patente_1.jpg",
+      "width": 200,
+      "height": 105,
+      "area": 21000,
+      "path": "./data/raw/imgs/urban_flow_plates/b25d7d2cb7abf86b_patente_1.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "b6580dec5ada277d_patente.jpg",
+      "width": 196,
+      "height": 103,
+      "area": 20188,
+      "path": "./data/raw/imgs/urban_flow_plates/b6580dec5ada277d_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "b6e55f97085c3732_patente.jpg",
+      "width": 103,
+      "height": 65,
+      "area": 6695,
+      "path": "./data/raw/imgs/urban_flow_plates/b6e55f97085c3732_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "bbcac63e32bd8137_patente_1.jpg",
+      "width": 377,
+      "height": 157,
+      "area": 59189,
+      "path": "./data/raw/imgs/urban_flow_plates/bbcac63e32bd8137_patente_1.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "be9fd0014b5a4f2a_patente.jpg",
+      "width": 180,
+      "height": 54,
+      "area": 9720,
+      "path": "./data/raw/imgs/urban_flow_plates/be9fd0014b5a4f2a_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "c7df5232291486a3_patente.jpg",
+      "width": 260,
+      "height": 92,
+      "area": 23920,
+      "path": "./data/raw/imgs/urban_flow_plates/c7df5232291486a3_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "c91ee912164d8ecb_patente.jpg",
+      "width": 189,
+      "height": 70,
+      "area": 13230,
+      "path": "./data/raw/imgs/urban_flow_plates/c91ee912164d8ecb_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "cb8c75fc1c7ccf73_patente.jpg",
+      "width": 269,
+      "height": 146,
+      "area": 39274,
+      "path": "./data/raw/imgs/urban_flow_plates/cb8c75fc1c7ccf73_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "ccc1a2d44a290368_patente.jpg",
+      "width": 140,
+      "height": 76,
+      "area": 10640,
+      "path": "./data/raw/imgs/urban_flow_plates/ccc1a2d44a290368_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "d27e094e98374ff8_patente.jpg",
+      "width": 231,
+      "height": 56,
+      "area": 12936,
+      "path": "./data/raw/imgs/urban_flow_plates/d27e094e98374ff8_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "d3729058c6a4186e_patente.jpg",
+      "width": 162,
+      "height": 60,
+      "area": 9720,
+      "path": "./data/raw/imgs/urban_flow_plates/d3729058c6a4186e_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "d565d93637d4e76d_patente.jpg",
+      "width": 166,
+      "height": 54,
+      "area": 8964,
+      "path": "./data/raw/imgs/urban_flow_plates/d565d93637d4e76d_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "d648b2ae1abc09f3_patente.jpg",
+      "width": 362,
+      "height": 183,
+      "area": 66246,
+      "path": "./data/raw/imgs/urban_flow_plates/d648b2ae1abc09f3_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "d648b2ae1abc09f3_patente_2.jpg",
+      "width": 174,
+      "height": 91,
+      "area": 15834,
+      "path": "./data/raw/imgs/urban_flow_plates/d648b2ae1abc09f3_patente_2.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "d8daed582e6cce2d_patente.jpg",
+      "width": 224,
+      "height": 117,
+      "area": 26208,
+      "path": "./data/raw/imgs/urban_flow_plates/d8daed582e6cce2d_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "d9fa2abf3719a4bd_patente_2.jpg",
+      "width": 249,
+      "height": 128,
+      "area": 31872,
+      "path": "./data/raw/imgs/urban_flow_plates/d9fa2abf3719a4bd_patente_2.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "da1352ab6054a2e4_patente.jpg",
+      "width": 229,
+      "height": 108,
+      "area": 24732,
+      "path": "./data/raw/imgs/urban_flow_plates/da1352ab6054a2e4_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "e1120bfe48f85c1b_patente.jpg",
+      "width": 142,
+      "height": 85,
+      "area": 12070,
+      "path": "./data/raw/imgs/urban_flow_plates/e1120bfe48f85c1b_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "e79f6777f2fc08b2_patente_1.jpg",
+      "width": 312,
+      "height": 88,
+      "area": 27456,
+      "path": "./data/raw/imgs/urban_flow_plates/e79f6777f2fc08b2_patente_1.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "e82f13b4a2fe69f3_patente_1.jpg",
+      "width": 261,
+      "height": 75,
+      "area": 19575,
+      "path": "./data/raw/imgs/urban_flow_plates/e82f13b4a2fe69f3_patente_1.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "ec8a36f7874c0c34_patente_1.jpg",
+      "width": 537,
+      "height": 118,
+      "area": 63366,
+      "path": "./data/raw/imgs/urban_flow_plates/ec8a36f7874c0c34_patente_1.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "ee047c8ca2cca8a2_patente.jpg",
+      "width": 264,
+      "height": 82,
+      "area": 21648,
+      "path": "./data/raw/imgs/urban_flow_plates/ee047c8ca2cca8a2_patente.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "fdd963edc28bf163_patente.jpg",
+      "width": 310,
+      "height": 88,
+      "area": 27280,
+      "path": "./data/raw/imgs/urban_flow_plates/fdd963edc28bf163_patente.jpg",
+      "patent": ""
+    }
+  ],
+  "completes": [
+    {
+      "filename": "0673b967f8c68eec.jpg",
+      "width": 1024,
+      "height": 742,
+      "area": 759808,
+      "path": "./data/raw/imgs/urban_flow_plates/0673b967f8c68eec.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "08481c03daf6f35d.jpg",
+      "width": 1024,
+      "height": 681,
+      "area": 697344,
+      "path": "./data/raw/imgs/urban_flow_plates/08481c03daf6f35d.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "0f4bfc46402a9f52.jpg",
+      "width": 1024,
+      "height": 1024,
+      "area": 1048576,
+      "path": "./data/raw/imgs/urban_flow_plates/0f4bfc46402a9f52.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "11f80fda2c38011c.jpg",
+      "width": 684,
+      "height": 307,
+      "area": 209988,
+      "path": "./data/raw/imgs/urban_flow_plates/11f80fda2c38011c.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "12b7ea40074d3b20.jpg",
+      "width": 1024,
+      "height": 768,
+      "area": 786432,
+      "path": "./data/raw/imgs/urban_flow_plates/12b7ea40074d3b20.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "16789af24af158d8.jpg",
+      "width": 1024,
+      "height": 1024,
+      "area": 1048576,
+      "path": "./data/raw/imgs/urban_flow_plates/16789af24af158d8.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "1f34454c4c073e1b.jpg",
+      "width": 835,
+      "height": 217,
+      "area": 181195,
+      "path": "./data/raw/imgs/urban_flow_plates/1f34454c4c073e1b.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "29f7991e696e6e3f.jpg",
+      "width": 1024,
+      "height": 683,
+      "area": 699392,
+      "path": "./data/raw/imgs/urban_flow_plates/29f7991e696e6e3f.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "593e594137f374ab.jpg",
+      "width": 1024,
+      "height": 681,
+      "area": 697344,
+      "path": "./data/raw/imgs/urban_flow_plates/593e594137f374ab.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "5fb888d79b551331.jpg",
+      "width": 1024,
+      "height": 1024,
+      "area": 1048576,
+      "path": "./data/raw/imgs/urban_flow_plates/5fb888d79b551331.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "64de505bd2bac82b.jpg",
+      "width": 717,
+      "height": 193,
+      "area": 138381,
+      "path": "./data/raw/imgs/urban_flow_plates/64de505bd2bac82b.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "67c834b73882a9f9.jpg",
+      "width": 1024,
+      "height": 717,
+      "area": 734208,
+      "path": "./data/raw/imgs/urban_flow_plates/67c834b73882a9f9.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "80e02a518ffe4cb2.jpg",
+      "width": 1024,
+      "height": 768,
+      "area": 786432,
+      "path": "./data/raw/imgs/urban_flow_plates/80e02a518ffe4cb2.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "8c63cf76166c3bd7.jpg",
+      "width": 1024,
+      "height": 773,
+      "area": 791552,
+      "path": "./data/raw/imgs/urban_flow_plates/8c63cf76166c3bd7.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "9a795bbf4e94d630.jpg",
+      "width": 894,
+      "height": 236,
+      "area": 210984,
+      "path": "./data/raw/imgs/urban_flow_plates/9a795bbf4e94d630.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "b01d46f9911d558b.jpg",
+      "width": 1024,
+      "height": 454,
+      "area": 464896,
+      "path": "./data/raw/imgs/urban_flow_plates/b01d46f9911d558b.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "b09813a8742277c7.jpg",
+      "width": 1024,
+      "height": 771,
+      "area": 789504,
+      "path": "./data/raw/imgs/urban_flow_plates/b09813a8742277c7.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "b9f5b9acf1777acf.jpg",
+      "width": 1024,
+      "height": 768,
+      "area": 786432,
+      "path": "./data/raw/imgs/urban_flow_plates/b9f5b9acf1777acf.jpg",
+      "patent": ""
+    },
+    {
+      "filename": "ee047c8ca2cca8a2.jpg",
+      "width": 1024,
+      "height": 768,
+      "area": 786432,
+      "path": "./data/raw/imgs/urban_flow_plates/ee047c8ca2cca8a2.jpg",
+      "patent": ""
+    }
+  ]
+}
