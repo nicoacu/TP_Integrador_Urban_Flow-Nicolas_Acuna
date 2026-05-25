@@ -45,3 +45,7 @@
 
 ## Dia 7
 - Redacción de conclusiones finales sobre la calidad del dataset
+
+## Dia 8
+- Inicialización del Sprint 2 sobre la rama Sprint_2 (derivada de Sprint_1)
+- Descarga y descompresión del dataset de imágenes en data/raw/imgs/urban_flow_plates/
