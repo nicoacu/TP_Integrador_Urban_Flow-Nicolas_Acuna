@@ -90,3 +90,8 @@
 - Migración de las imágenes raw (urban_flow_plates) de git a DVC
 - Migración de las imágenes interim del pipeline OpenCV a DVC
 - Push de los binarios al remote con dvc push
+
+## Día 16
+- Diseño del modelo lógico de entidades Vehiculo, Radar, Multa y Evidencia
+- Definición de relaciones y cardinalidades entre entidades
+- Implementación adelantada de las clases ORM para uso del Ejercicio 04
