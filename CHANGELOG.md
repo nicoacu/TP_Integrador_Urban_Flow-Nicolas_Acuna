@@ -122,3 +122,8 @@
 - Creación de la base de datos vectorial patente_vectorial con ChromaDB
 - Generación de embeddings de imágenes con OpenCLIP
 - Indexado de la mejor imagen por vehículo (mayor ratio de OCR)
+
+## Día 22
+- Implementación de buscar_patente_imagen para recuperar el vehículo
+  más similar a una imagen dada
+- Validación con las tres rutas de prueba del enunciado
