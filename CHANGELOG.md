@@ -105,3 +105,9 @@
 - Diseño del modelo relacional con SQLAlchemy ORM
 - Definición de claves primarias y relaciones entre tablas
 - Sobrescritura de __repr__ en cada clase para legibilidad
+
+## Día 19
+- Creación de la base de datos SQLite transito.db
+- Migración del CSV procesado al modelo relacional
+- Deduplicación de vehículos y radares en la inserción
+- Validación de la cantidad de registros insertados por tabla
