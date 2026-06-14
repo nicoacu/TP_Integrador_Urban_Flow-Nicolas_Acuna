@@ -100,3 +100,8 @@
 - Implementación de procesar_fila_csv que mapea filas del CSV a instancias
   de Multa con relaciones a Vehiculo, Radar y Evidencia
 - Validación de la función contra la fila de ejemplo del enunciado
+
+## Día 18
+- Diseño del modelo relacional con SQLAlchemy ORM
+- Definición de claves primarias y relaciones entre tablas
+- Sobrescritura de __repr__ en cada clase para legibilidad
