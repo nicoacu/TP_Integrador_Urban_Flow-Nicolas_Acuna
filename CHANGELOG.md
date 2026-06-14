@@ -117,3 +117,8 @@
   top 10 patentes con más multas, top 10 multas sin evidencia,
   radares más activos, top 10 reincidentes en 2020 y porcentaje
   de multas confirmadas visualmente
+
+## Día 21
+- Creación de la base de datos vectorial patente_vectorial con ChromaDB
+- Generación de embeddings de imágenes con OpenCLIP
+- Indexado de la mejor imagen por vehículo (mayor ratio de OCR)
