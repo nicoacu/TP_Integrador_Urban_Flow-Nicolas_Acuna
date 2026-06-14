@@ -95,3 +95,8 @@
 - Diseño del modelo lógico de entidades Vehiculo, Radar, Multa y Evidencia
 - Definición de relaciones y cardinalidades entre entidades
 - Implementación adelantada de las clases ORM para uso del Ejercicio 04
+
+## Día 17
+- Implementación de procesar_fila_csv que mapea filas del CSV a instancias
+  de Multa con relaciones a Vehiculo, Radar y Evidencia
+- Validación de la función contra la fila de ejemplo del enunciado
