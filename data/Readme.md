@@ -70,3 +70,65 @@ Dos decisiones de implementación impactaron significativamente en los resultado
     ```
     
 Una comparación literal carácter a carácter de izquierda a derecha falla en estos casos: aunque la patente real esté presente en la cadena, queda desplazada respecto al inicio y el ratio se reduce a ≈ 0. Por eso se decidió usar `difflib.SequenceMatcher` (stdlib de Python), que busca la subsecuencia común más larga entre dos cadenas. Esto permite encontrar la patente "escondida" dentro del texto ruidoso y reportar un ratio representativo. Esta sola decisión casi triplicó la cantidad de matches respecto al algoritmo posicional.
+
+# Hallazgos sobre el sistema - Sprint 3
+
+El Sprint 3 migró las 1673 multas válidas del Sprint 2 desde el CSV plano
+a una base relacional SQLite modelada en cuatro tablas: vehiculos,
+radares, multas y evidencias. Esta normalización expuso algo que el CSV
+ocultaba: solo se identificaron 65 vehiculos únicos y 3 radares operando
+sobre las 1673 multas. La distribución es desigual: los radares
+concentran cientos de infracciones cada uno, lo cual es consistente con
+su rol como puntos fijos de monitoreo urbano.
+
+Del análisis emergió un dato preocupante: **403 multas (24%) no tienen
+radar_id asociado**. Son registros heredados del sistema viejo donde
+quedó asentada la infracción pero no se identificó el dispositivo que la
+generó. Para no perderlas, se modeló `Multa.radar_id` como opcional
+(cardinalidad `(0..1)` desde Multa hacia Radar), lo que las mantiene en
+la base pero las excluye automáticamente de la consulta de radares más
+activos. En términos operativos, son multas defendibles legalmente pero
+no auditables a nivel de cobertura del sistema.
+
+La búsqueda vectorial expone otra limitación del data quality heredado:
+solo 27 de los 65 vehículos del sistema (42%) tienen al menos una
+imagen con OCR suficientemente confiable para ser indexados. Los otros
+38 quedan sin huella visual porque ninguna de sus multas pudo asociarse
+a una imagen en el Sprint 2 — sea por falta de foto física o porque el
+OCR no alcanzó el threshold del 80%. Esto no es una decisión de diseño
+del Sprint 3 sino una restricción que la búsqueda vectorial no puede
+compensar.
+
+# Decisiones técnicas y trade-offs - Sprint 3
+
+Dos decisiones de implementación marcaron el resultado final:
+
+1. **`radar_id` nullable en `Multa`**: las 403 multas sin radar se
+   persisten con `radar = None` en lugar de descartarse o asignarse a un
+   radar placeholder. La decisión prioriza fidelidad al dato original
+   sobre completitud relacional. Si en el futuro se identifican esos
+   radares (por ejemplo cruzando con otro dataset municipal), las multas
+   se pueden enriquecer con un simple `UPDATE`.
+
+2. **Mejor imagen por vehículo en ChromaDB**: la colección vectorial usa
+   el `id` del vehículo como clave única, lo cual obliga a elegir una
+   sola imagen representativa por auto. Se decidió indexar la imagen de
+   la multa con mayor `ratio` de OCR del Sprint 2 — la que ya fue
+   validada como la más confiable visualmente. El trade-off es pérdida
+   de diversidad: vehículos con varias multas tienen una sola "huella
+   visual" en la colección, lo cual baja la robustez del match si esa
+   única foto está degradada.
+
+# Conclusión - Sprint 3
+
+El Sprint 3 transformó el dataset de un archivo plano en un sistema con
+dos capas de almacenamiento independientes pero conectadas: relacional
+para las consultas estructuradas y vectorial para la búsqueda por
+similitud visual. Cada capa aporta una vista distinta del mismo
+problema.
+
+Por otro lado, se introdujo el versionado de los binarios con DVC, que
+si bien no altera el sistema (las queries y la búsqueda vectorial
+funcionarían igual si las imágenes hubieran seguido en git), separa
+formalmente el ciclo de vida del código (git) del de los datos (dvc),
+lo cual mejora la mantenibilidad a medida que el dataset crece.

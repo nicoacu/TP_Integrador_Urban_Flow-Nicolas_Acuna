@@ -127,3 +127,8 @@
 - Implementación de buscar_patente_imagen para recuperar el vehículo
   más similar a una imagen dada
 - Validación con las tres rutas de prueba del enunciado
+
+## Día 23
+- Redacción de las conclusiones del Sprint 3
+- Documentación de hallazgos, decisiones técnicas y trade-offs
+- Persistencia de las conclusiones en data/Readme.md
