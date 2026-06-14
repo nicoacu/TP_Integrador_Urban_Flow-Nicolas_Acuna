@@ -111,3 +111,9 @@
 - Migración del CSV procesado al modelo relacional
 - Deduplicación de vehículos y radares en la inserción
 - Validación de la cantidad de registros insertados por tabla
+
+## Día 20
+- Implementación de las cinco consultas requeridas:
+  top 10 patentes con más multas, top 10 multas sin evidencia,
+  radares más activos, top 10 reincidentes en 2020 y porcentaje
+  de multas confirmadas visualmente
