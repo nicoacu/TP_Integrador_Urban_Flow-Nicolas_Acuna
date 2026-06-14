@@ -1,0 +1,6 @@
+outs:
+- md5: 8c33d95b1ffd45e5134b6aab2d4d4b9d.dir
+  size: 4791390
+  nfiles: 110
+  hash: md5
+  path: urban_flow_plates

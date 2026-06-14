@@ -84,3 +84,9 @@
 - Inicialización del Sprint 3 sobre la rama Sprint_3 (derivada de Sprint_2)
 - Inicialización de DVC para versionar binarios del proyecto
 - Verificación de acceso a los CSV procesados del Sprint 2
+
+## Día 15
+- Creación del remote local /content/remote_dvc
+- Migración de las imágenes raw (urban_flow_plates) de git a DVC
+- Migración de las imágenes interim del pipeline OpenCV a DVC
+- Push de los binarios al remote con dvc push
