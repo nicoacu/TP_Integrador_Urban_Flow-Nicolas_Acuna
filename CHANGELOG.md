@@ -79,3 +79,8 @@
 ## Dia 13
 - Redacción de análisis y conclusiones del Sprint 2 en data/Readme.md
 - Documentación de hallazgos, decisiones técnicas (OCR sobre gris, SequenceMatcher), limitaciones y librerías externas utilizadas
+
+## Día 14
+- Inicialización del Sprint 3 sobre la rama Sprint_3 (derivada de Sprint_2)
+- Inicialización de DVC para versionar binarios del proyecto
+- Verificación de acceso a los CSV procesados del Sprint 2
